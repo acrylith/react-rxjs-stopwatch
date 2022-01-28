@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(45, 45, 56);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.clock {
+    &__screen {
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+    }
+
+    &__measure {
+        padding: 40px;
+        border-radius: 20px;
+        background-color: white;
+        color: rgb(45, 45, 56);
+        font-size: 46px;
+        font-weight: bold;
+    }
+
+    &__label {
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+    }
+}
+
+.controls {
+    margin: 24px 0;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+    button {
+        padding: 8px 32px;
+        background-color: transparent;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all .5s;
+    }
+}
+
+.start {
+    border: 2px solid rgb(2, 175, 2);
+    color: rgb(2, 175, 2);
+    &:hover {
+        box-shadow: 0px 0px 8px 4px rgba(2, 175, 2, 0.5) inset;
+    }
+}
+
+.stop {
+    border: 2px solid rgb(173, 3, 3);
+    color: rgb(173, 3, 3);
+    &:hover {
+        box-shadow: 0px 0px 8px 4px rgba(173, 3, 3, 0.5) inset;
+    }
+}
+
+.wait {
+    border: 2px solid rgb(2, 168, 190);
+    color: rgb(2, 168, 190);
+    &:hover {
+        box-shadow: 0px 0px 8px 4px rgba(2, 168, 190, 0.5) inset;
+    }
+}
+
+.reset {
+    border: 2px solid rgb(201, 131, 1);
+    color: rgb(201, 131, 1);
+    &:hover {
+        box-shadow: 0px 0px 8px 4px rgba(201, 131, 1, 0.5) inset;
+    }
+}
