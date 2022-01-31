@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-rxjs-stopwatch/static/css/main.750d1b22.css",
+    "main.js": "/react-rxjs-stopwatch/static/js/main.f5d2381b.js",
+    "index.html": "/react-rxjs-stopwatch/index.html",
+    "main.750d1b22.css.map": "/react-rxjs-stopwatch/static/css/main.750d1b22.css.map",
+    "main.f5d2381b.js.map": "/react-rxjs-stopwatch/static/js/main.f5d2381b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.750d1b22.css",
+    "static/js/main.f5d2381b.js"
+  ]
+}
